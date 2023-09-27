@@ -13,6 +13,7 @@ public class HomeController {
     public String getProjects(){
         return "projects";
     }
+
     @GetMapping("/contact")
     public String getContact(){
         return "contact";

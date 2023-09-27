@@ -6,3 +6,6 @@
 
 [Link how to install java 17 on linux 2023](https://linux.how2shout.com/how-to-install-java-17-on-amazon-linux-2023/)
 
+[Link to SSL certificate guide](https://www.thomasvitale.com/https-spring-boot-ssl-certificate/)
+
+[Link to letsencrypt](https://community.letsencrypt.org/t/tutorial-java-keystores-jks-with-lets-encrypt/34754/3)

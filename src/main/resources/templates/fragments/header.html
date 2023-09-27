@@ -2,8 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My tittle</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>Jentrix Ahl - Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+
+  <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+  <link rel="stylesheet" th:href="'/style.css?v=' + ${#dates.format(#dates.createNow(), 'yyMMddHHmm')}">
 
 </head>
 <body>
@@ -18,4 +23,4 @@
   </nav>
 </header>
 
-<h1>Jentrix Ahl</h1>
+<h1>Jentrix Ahl - Portfolio</h1>

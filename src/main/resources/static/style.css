@@ -5,6 +5,10 @@
 h1,h2,h3,h4,h5,h6{
     font-family: 'Playfair Display', serif;
 }
+
+h1{
+    line-height: 1.5em;
+}
 html{
     background: white;
     padding: 1em;
@@ -12,12 +16,22 @@ html{
 
 }
 body {
-    max-width: 900px;
-    margin: 0 auto 2em ;
+    max-width: 1200px;
+    margin: 0 auto 2em;
     padding: 0 1em;
+    line-height: 1.4em;
+    letter-spacing: 0.4px;
+}
+img{
+    max-width: 100%;
 }
 #logo{
     widith: 100px;
+}
+
+#profile-picture{
+    max-width: 280px;
+    border-radius: 100%;
 }
 a{
     color: darkblue;
@@ -31,4 +45,49 @@ nav a {
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     padding: 0 1em;
+}
+
+ul.contact-information{
+    padding-left: 1em;
+}
+
+.contact-information li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4em;
+}
+
+.contact-information li strong{
+    margin: 0 0.2em;
+}
+
+.row{
+    display: flex;
+}
+
+.column {
+    padding-right: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-icon {
+    width: 24px;
+}
+
+@media screen and (max-width: 900px){
+    #profile-picture{
+        max-width: 140px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #profile-picture {
+        max-width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
 }
