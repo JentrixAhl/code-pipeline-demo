@@ -89,5 +89,6 @@ ul.contact-information{
 
     .row {
         flex-direction: column;
+        margin: 2em 0;
     }
 }
